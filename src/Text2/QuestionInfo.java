@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class QuestionInfo {
 	public void showMenu(){
 		try {
+			//1
 			QuestionInfoDaoImpl q = new QuestionInfoDaoImpl();
 			System.out.println("*************欢迎使用试题管理系统*****************************************************");
 			System.out.print("请选择操作：1.列出所有试题 2.按科目查询 3.按题干模糊查询 4.添加试题 5.删除试题 6.退出系统 ：");
